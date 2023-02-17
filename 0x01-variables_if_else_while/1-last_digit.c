@@ -4,7 +4,7 @@
 
 /**
  * main - This program prints the last digit
- * Returb: 0
+ * Return: 0
  */
 int main(void)
 {
