@@ -2,7 +2,7 @@
 
 /**
  * print_numbers - function thst prints numbers from 0 - 9
- * Return: 0
+ * Return: void
  */
 
 void print_numbers(void)
@@ -12,7 +12,6 @@ void print_numbers(void)
 	for (i = 0; i <= 9; i++)
 	{
 		_putchar(i);
-		_putchar('\n');
 	}
-	return (0);
+	_putchar('\n');
 }
