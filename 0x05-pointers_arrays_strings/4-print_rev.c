@@ -13,14 +13,14 @@ void print_rev(char *s)
 
 	while (*s != '\0')
 	{
-		lomgi++;
+		longi++;
 		s++;
 	}
 	s--;
-	for (o = longi; o > 0; 0--)
+	for (o = longi; o > 0; o--)
 	{
 		_putchar(*s);
 		s--;
 	}
-	-putchar('\n');
+	_putchar('\n');
 }
